@@ -140,14 +140,112 @@ body{
 
 /* ------------------------------- Start ***Third*** section --------------------------------- */
 
-
-
+.third-section{
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    padding-bottom: 20px;
+    color: black;
+}
+.third-section img{
+    width: 360px;
+    margin: 70px 0 0 70px;
+    border-radius: 10px;
+    border: 1px solid #ffffffee;
+    box-shadow: 2px 2px 15px white;
+}
+.third-section .baby-info{
+    width: 55%;
+    padding: 100px 30px 0 60px;
+}
+.third-section .baby-info h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+.third-section .baby-info h1 span{
+    color: red;    
+}
+.third-section .baby-info p::first-letter{
+    color: red;
+    font-size: 35px;
+}
+.third-section .baby-info a{
+    display: block;
+    padding: 9px 20px;
+    margin-top: 20px;
+    width: 130px;
+    height: 22px;
+    font-weight: 550;
+    font-size: 16px;
+    color: red;
+    background-color: rgb(37, 35, 35);
+    border: 1px solid red;
+    border-radius: 30px;
+    box-shadow: 3px 5px 15px rgb(248, 91, 91);
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+}
 
 
 
 /* ------------------------------- End ***Third*** section --------------------------------- */
 
 
+
+
+/* ------------------------------- Start ***Fourth*** section --------------------------------- */
+
+.Forth-section{
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    padding-bottom: 80px;
+    color: black;
+}
+.Forth-section .baby-info{
+    width: 55%;
+    padding: 100px 30px 0 60px;
+}
+.Forth-section .baby-info h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+.Forth-section .baby-info h1 span{
+    color: red;    
+}
+.Forth-section .baby-info p::first-letter{
+    color: red;
+    font-size: 35px;
+}
+.Forth-section .baby-info a{
+    display: block;
+    padding: 9px 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 22px;
+    font-weight: 550;
+    font-size: 16px;
+    color: red;
+    background-color: rgb(37, 35, 35);
+    border: 1px solid red;
+    border-radius: 30px;
+    box-shadow: 3px 5px 15px rgb(248, 91, 91);
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+}
+
+.Forth-section img{
+    width: 360px;
+    margin: 70px 20px 0 30px;
+    border-radius: 10px;
+    border: 1px solid #ffffffee;
+    box-shadow: 2px 2px 15px white;
+}
+
+
+/* ------------------------------- End ***Fourth*** section --------------------------------- */
 
 
 /* 
