@@ -1,0 +1,87 @@
+body{
+    font-family: lora;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.main{
+    width: 98%;
+    margin: 0 auto;
+    background-color: rgb(243, 247, 247);
+}
+
+.first-section{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(0,0,0,0.8);
+}
+.child-div1{
+    width: 60%;
+}
+.child-div1 .text-div{
+    margin: 150px 50px 0 100px;
+}
+.child-div1 .text-div .h1-div{
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(241, 14, 101), rgb(243, 174, 24));
+    border-image-slice: 1;
+}
+.child-div1 .text-div .h1-div h1{
+    font-size: 35px;
+    padding-left: 10px;
+    word-spacing: 8px;
+    margin: 0;
+    font-family: Impact'Arial Narrow Bold', sans-serif;
+}
+.child-div1 .text-div .h1-div .first-h1{
+    text-shadow: 2px 2px 3px rgb(250, 97, 97);
+    font-style: italic;
+}
+.child-div1 .text-div .h1-div span{
+    color: red;
+}
+.child-div1 .text-div  p{
+    width: 95%;
+    text-align: justify;
+}
+.child-div1 .text-div  p::first-letter{
+    color: rgb(236, 236, 135);
+    font-size: 35px;
+}
+.child-div1 .text-div a{
+    display: block;
+    background-image: linear-gradient(red, gree, blue);
+    padding: 9px 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 22px;
+    font-weight: 550;
+    font-size: 16px;
+    color: red;
+    border-radius: 30px;
+    box-shadow: 3px 3px 8px rgb(206, 189, 189);
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+}
+.first-section h3{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.child-div2{
+    width: 40%;
+}
+.child-div2 img{
+    width: 380px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+    margin-right: 100px;
+    border: 5px solid rgba(247, 14, 14, 0.6);
+    border-radius: 5px;
+    box-shadow: 15px 8px 40px rgb(207, 187, 187);
+}
+
