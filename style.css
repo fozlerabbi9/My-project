@@ -247,21 +247,3 @@ body{
 
 /* ------------------------------- End ***Fourth*** section --------------------------------- */
 
-
-/* 
-.perent-div{
-    width: 95%;
-    height: 80vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.perent-div .divtwo{
-    background-color: blue;
-}
-.child-div{
-    width: 25%;
-    background-color: rgb(51, 172, 20);
-    height: 250px;
-} */
-
